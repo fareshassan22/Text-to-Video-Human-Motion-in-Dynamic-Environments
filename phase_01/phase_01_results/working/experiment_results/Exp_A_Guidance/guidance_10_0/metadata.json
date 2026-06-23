@@ -1,0 +1,27 @@
+{
+    "prompt": "A person walking in a busy street with moving cars and background elements, daytime, dynamic motion, cinematic tracking shot",
+    "complexity_level": "medium",
+    "seed": 1024,
+    "parameters": {
+        "num_inference_steps_t2i": 30,
+        "guidance_scale_t2i": 10.0,
+        "num_inference_steps_i2v": 25,
+        "motion_bucket_id": 127,
+        "noise_aug_strength": 0.1
+    },
+    "generation_time_seconds": 365.19,
+    "video_path": "/kaggle/working/experiment_results/Exp_A_Guidance/guidance_10_0/output_video.mp4",
+    "metrics": {
+        "clip_sim": 32.292274475097656,
+        "fvd": -1.0,
+        "mean_ssim": 0.7819892011879711,
+        "mean_frame_diff": 11.380986213684082,
+        "ssim_variance": 0.0001201269997629054
+    },
+    "weakness_analysis": {
+        "temporal_consistency": "moderate",
+        "flickering_detected": "minor",
+        "semantic_alignment": "good",
+        "motion_realism": "requires_manual_review_or_fvd"
+    }
+}

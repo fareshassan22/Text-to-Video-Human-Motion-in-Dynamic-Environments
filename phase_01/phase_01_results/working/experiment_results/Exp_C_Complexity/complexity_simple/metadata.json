@@ -1,0 +1,27 @@
+{
+    "prompt": "A person walking on an empty sunlit street, smooth motion, highly detailed, cinematic lighting, photorealistic",
+    "complexity_level": "simple",
+    "seed": 2048,
+    "parameters": {
+        "num_inference_steps_t2i": 30,
+        "guidance_scale_t2i": 7.5,
+        "num_inference_steps_i2v": 25,
+        "motion_bucket_id": 127,
+        "noise_aug_strength": 0.1
+    },
+    "generation_time_seconds": 365.39,
+    "video_path": "/kaggle/working/experiment_results/Exp_C_Complexity/complexity_simple/output_video.mp4",
+    "metrics": {
+        "clip_sim": 33.55402755737305,
+        "fvd": -1.0,
+        "mean_ssim": 0.8024508984918884,
+        "mean_frame_diff": 8.992152214050293,
+        "ssim_variance": 0.0001535593846139675
+    },
+    "weakness_analysis": {
+        "temporal_consistency": "moderate",
+        "flickering_detected": "minor",
+        "semantic_alignment": "good",
+        "motion_realism": "requires_manual_review_or_fvd"
+    }
+}

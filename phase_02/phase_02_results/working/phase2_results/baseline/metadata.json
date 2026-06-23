@@ -1,0 +1,36 @@
+{
+    "variant": "baseline",
+    "description": "Original Phase 1 style settings.",
+    "prompt": "A person walking in a busy street with moving cars and background elements, daytime, dynamic motion, cinematic tracking shot",
+    "negative_prompt": null,
+    "seed": 4096,
+    "parameters": {
+        "guidance_scale_t2i": 7.5,
+        "motion_bucket_id": 127,
+        "noise_aug_strength": 0.1,
+        "temporal_smoothing": false,
+        "interpolate": false,
+        "fps": 7
+    },
+    "generation_time_seconds": 427.45,
+    "video_path": "/kaggle/working/phase2_results/baseline/output_video.mp4",
+    "frames_dir": "/kaggle/working/phase2_results/baseline/frames",
+    "num_frames": 25,
+    "fps": 7,
+    "duration_seconds": 3.5714285714285716,
+    "metrics": {
+        "clip_sim": 34.219547271728516,
+        "lpips_temporal": 0.20326786239941916,
+        "mean_ssim": 0.704891197368893,
+        "mean_psnr": 16.453202082895555,
+        "mean_frame_diff": 19.999336004257202,
+        "ssim_variance": 0.005819572091163309
+    },
+    "weakness_analysis": {
+        "temporal_consistency": "moderate",
+        "flickering_detected": "minor",
+        "semantic_alignment": "good",
+        "motion_realism": "manual_review_recommended"
+    },
+    "phase2_requirement": "ablation_variant"
+}

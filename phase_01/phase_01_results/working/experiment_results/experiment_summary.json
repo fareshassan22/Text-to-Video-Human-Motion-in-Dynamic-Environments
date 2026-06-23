@@ -1,0 +1,254 @@
+[
+    {
+        "prompt": "A person walking in a busy street with moving cars and background elements, daytime, dynamic motion, cinematic tracking shot",
+        "complexity_level": "medium",
+        "seed": 1024,
+        "parameters": {
+            "num_inference_steps_t2i": 30,
+            "guidance_scale_t2i": 5.0,
+            "num_inference_steps_i2v": 25,
+            "motion_bucket_id": 127,
+            "noise_aug_strength": 0.1
+        },
+        "generation_time_seconds": 371.95,
+        "video_path": "/kaggle/working/experiment_results/Exp_A_Guidance/guidance_5_0/output_video.mp4",
+        "metrics": {
+            "clip_sim": 32.75165939331055,
+            "fvd": -1.0,
+            "mean_ssim": 0.7749767517770069,
+            "mean_frame_diff": 9.776556968688965,
+            "ssim_variance": 0.0008168934076203692
+        },
+        "weakness_analysis": {
+            "temporal_consistency": "moderate",
+            "flickering_detected": "minor",
+            "semantic_alignment": "good",
+            "motion_realism": "requires_manual_review_or_fvd"
+        },
+        "experiment_type": "Guidance_Scale_5.0"
+    },
+    {
+        "prompt": "A person walking in a busy street with moving cars and background elements, daytime, dynamic motion, cinematic tracking shot",
+        "complexity_level": "medium",
+        "seed": 1024,
+        "parameters": {
+            "num_inference_steps_t2i": 30,
+            "guidance_scale_t2i": 7.5,
+            "num_inference_steps_i2v": 25,
+            "motion_bucket_id": 127,
+            "noise_aug_strength": 0.1
+        },
+        "generation_time_seconds": 366.18,
+        "video_path": "/kaggle/working/experiment_results/Exp_A_Guidance/guidance_7_5/output_video.mp4",
+        "metrics": {
+            "clip_sim": 32.009647369384766,
+            "fvd": -1.0,
+            "mean_ssim": 0.7600206665313886,
+            "mean_frame_diff": 10.991177558898926,
+            "ssim_variance": 0.010119552259219613
+        },
+        "weakness_analysis": {
+            "temporal_consistency": "moderate",
+            "flickering_detected": "minor",
+            "semantic_alignment": "good",
+            "motion_realism": "requires_manual_review_or_fvd"
+        },
+        "experiment_type": "Guidance_Scale_7.5"
+    },
+    {
+        "prompt": "A person walking in a busy street with moving cars and background elements, daytime, dynamic motion, cinematic tracking shot",
+        "complexity_level": "medium",
+        "seed": 1024,
+        "parameters": {
+            "num_inference_steps_t2i": 30,
+            "guidance_scale_t2i": 10.0,
+            "num_inference_steps_i2v": 25,
+            "motion_bucket_id": 127,
+            "noise_aug_strength": 0.1
+        },
+        "generation_time_seconds": 365.19,
+        "video_path": "/kaggle/working/experiment_results/Exp_A_Guidance/guidance_10_0/output_video.mp4",
+        "metrics": {
+            "clip_sim": 32.292274475097656,
+            "fvd": -1.0,
+            "mean_ssim": 0.7819892011879711,
+            "mean_frame_diff": 11.380986213684082,
+            "ssim_variance": 0.0001201269997629054
+        },
+        "weakness_analysis": {
+            "temporal_consistency": "moderate",
+            "flickering_detected": "minor",
+            "semantic_alignment": "good",
+            "motion_realism": "requires_manual_review_or_fvd"
+        },
+        "experiment_type": "Guidance_Scale_10.0"
+    },
+    {
+        "prompt": "A person walking in a busy street with moving cars and background elements, daytime, dynamic motion, cinematic tracking shot",
+        "complexity_level": "medium",
+        "seed": 1024,
+        "parameters": {
+            "num_inference_steps_t2i": 30,
+            "guidance_scale_t2i": 7.5,
+            "num_inference_steps_i2v": 15,
+            "motion_bucket_id": 127,
+            "noise_aug_strength": 0.1
+        },
+        "generation_time_seconds": 243.77,
+        "video_path": "/kaggle/working/experiment_results/Exp_B_Steps/steps_15/output_video.mp4",
+        "metrics": {
+            "clip_sim": 32.24757385253906,
+            "fvd": -1.0,
+            "mean_ssim": 0.7746734596668162,
+            "mean_frame_diff": 10.56550407409668,
+            "ssim_variance": 0.00896649472967302
+        },
+        "weakness_analysis": {
+            "temporal_consistency": "moderate",
+            "flickering_detected": "minor",
+            "semantic_alignment": "good",
+            "motion_realism": "requires_manual_review_or_fvd"
+        },
+        "experiment_type": "Inference_Steps_15"
+    },
+    {
+        "prompt": "A person walking in a busy street with moving cars and background elements, daytime, dynamic motion, cinematic tracking shot",
+        "complexity_level": "medium",
+        "seed": 1024,
+        "parameters": {
+            "num_inference_steps_t2i": 30,
+            "guidance_scale_t2i": 7.5,
+            "num_inference_steps_i2v": 25,
+            "motion_bucket_id": 127,
+            "noise_aug_strength": 0.1
+        },
+        "generation_time_seconds": 364.99,
+        "video_path": "/kaggle/working/experiment_results/Exp_B_Steps/steps_25/output_video.mp4",
+        "metrics": {
+            "clip_sim": 32.009647369384766,
+            "fvd": -1.0,
+            "mean_ssim": 0.7600206665313886,
+            "mean_frame_diff": 10.991177558898926,
+            "ssim_variance": 0.010119552259219613
+        },
+        "weakness_analysis": {
+            "temporal_consistency": "moderate",
+            "flickering_detected": "minor",
+            "semantic_alignment": "good",
+            "motion_realism": "requires_manual_review_or_fvd"
+        },
+        "experiment_type": "Inference_Steps_25"
+    },
+    {
+        "prompt": "A person walking in a busy street with moving cars and background elements, daytime, dynamic motion, cinematic tracking shot",
+        "complexity_level": "medium",
+        "seed": 1024,
+        "parameters": {
+            "num_inference_steps_t2i": 30,
+            "guidance_scale_t2i": 7.5,
+            "num_inference_steps_i2v": 40,
+            "motion_bucket_id": 127,
+            "noise_aug_strength": 0.1
+        },
+        "generation_time_seconds": 547.26,
+        "video_path": "/kaggle/working/experiment_results/Exp_B_Steps/steps_40/output_video.mp4",
+        "metrics": {
+            "clip_sim": 32.06813430786133,
+            "fvd": -1.0,
+            "mean_ssim": 0.7561742339544383,
+            "mean_frame_diff": 11.037178039550781,
+            "ssim_variance": 0.010597034231470806
+        },
+        "weakness_analysis": {
+            "temporal_consistency": "moderate",
+            "flickering_detected": "minor",
+            "semantic_alignment": "good",
+            "motion_realism": "requires_manual_review_or_fvd"
+        },
+        "experiment_type": "Inference_Steps_40"
+    },
+    {
+        "prompt": "A person walking on an empty sunlit street, smooth motion, highly detailed, cinematic lighting, photorealistic",
+        "complexity_level": "simple",
+        "seed": 2048,
+        "parameters": {
+            "num_inference_steps_t2i": 30,
+            "guidance_scale_t2i": 7.5,
+            "num_inference_steps_i2v": 25,
+            "motion_bucket_id": 127,
+            "noise_aug_strength": 0.1
+        },
+        "generation_time_seconds": 365.39,
+        "video_path": "/kaggle/working/experiment_results/Exp_C_Complexity/complexity_simple/output_video.mp4",
+        "metrics": {
+            "clip_sim": 33.55402755737305,
+            "fvd": -1.0,
+            "mean_ssim": 0.8024508984918884,
+            "mean_frame_diff": 8.992152214050293,
+            "ssim_variance": 0.0001535593846139675
+        },
+        "weakness_analysis": {
+            "temporal_consistency": "moderate",
+            "flickering_detected": "minor",
+            "semantic_alignment": "good",
+            "motion_realism": "requires_manual_review_or_fvd"
+        },
+        "experiment_type": "Complexity_simple"
+    },
+    {
+        "prompt": "A person walking in a busy street with moving cars and background elements, daytime, dynamic motion, cinematic tracking shot",
+        "complexity_level": "medium",
+        "seed": 2048,
+        "parameters": {
+            "num_inference_steps_t2i": 30,
+            "guidance_scale_t2i": 7.5,
+            "num_inference_steps_i2v": 25,
+            "motion_bucket_id": 127,
+            "noise_aug_strength": 0.1
+        },
+        "generation_time_seconds": 363.07,
+        "video_path": "/kaggle/working/experiment_results/Exp_C_Complexity/complexity_medium/output_video.mp4",
+        "metrics": {
+            "clip_sim": 29.170944213867188,
+            "fvd": -1.0,
+            "mean_ssim": 0.6982396681270912,
+            "mean_frame_diff": 14.47900104522705,
+            "ssim_variance": 0.00013227336065901516
+        },
+        "weakness_analysis": {
+            "temporal_consistency": "moderate",
+            "flickering_detected": "minor",
+            "semantic_alignment": "good",
+            "motion_realism": "requires_manual_review_or_fvd"
+        },
+        "experiment_type": "Complexity_medium"
+    },
+    {
+        "prompt": "A crowded public market with many diverse people walking and interacting, merchants selling goods, vibrant colors, chaotic but realistic human motion, cinematic wide camera",
+        "complexity_level": "complex",
+        "seed": 2048,
+        "parameters": {
+            "num_inference_steps_t2i": 30,
+            "guidance_scale_t2i": 7.5,
+            "num_inference_steps_i2v": 25,
+            "motion_bucket_id": 127,
+            "noise_aug_strength": 0.1
+        },
+        "generation_time_seconds": 364.81,
+        "video_path": "/kaggle/working/experiment_results/Exp_C_Complexity/complexity_complex/output_video.mp4",
+        "metrics": {
+            "clip_sim": 31.943998336791992,
+            "fvd": -1.0,
+            "mean_ssim": 0.5900450753859907,
+            "mean_frame_diff": 24.03692626953125,
+            "ssim_variance": 5.9954454942563774e-05
+        },
+        "weakness_analysis": {
+            "temporal_consistency": "poor",
+            "flickering_detected": "yes",
+            "semantic_alignment": "good",
+            "motion_realism": "requires_manual_review_or_fvd"
+        },
+        "experiment_type": "Complexity_complex"
+    }
+]

@@ -1,0 +1,36 @@
+{
+    "variant": "enhancement_B_temporal",
+    "description": "Temporal enhancement: lower motion/noise + smoothing + frame interpolation.",
+    "prompt": "A person walking in a busy street with moving cars and background elements, daytime, dynamic motion, cinematic tracking shot",
+    "negative_prompt": null,
+    "seed": 4096,
+    "parameters": {
+        "guidance_scale_t2i": 7.5,
+        "motion_bucket_id": 80,
+        "noise_aug_strength": 0.04,
+        "temporal_smoothing": true,
+        "interpolate": true,
+        "fps": 12
+    },
+    "generation_time_seconds": 440.06,
+    "video_path": "/kaggle/working/phase2_results/enhancement_B_temporal/output_video.mp4",
+    "frames_dir": "/kaggle/working/phase2_results/enhancement_B_temporal/frames",
+    "num_frames": 49,
+    "fps": 12,
+    "duration_seconds": 4.083333333333333,
+    "metrics": {
+        "clip_sim": 34.95082473754883,
+        "lpips_temporal": 0.04383024627653261,
+        "mean_ssim": 0.9566563944612737,
+        "mean_psnr": 27.929171893135436,
+        "mean_frame_diff": 4.495650087793668,
+        "ssim_variance": 5.821454919766937e-05
+    },
+    "weakness_analysis": {
+        "temporal_consistency": "good",
+        "flickering_detected": "no",
+        "semantic_alignment": "good",
+        "motion_realism": "manual_review_recommended"
+    },
+    "phase2_requirement": "ablation_variant"
+}

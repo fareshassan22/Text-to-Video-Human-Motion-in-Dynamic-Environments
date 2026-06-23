@@ -1,0 +1,36 @@
+{
+    "variant": "combined_A_B",
+    "description": "Combined enhancement: semantic conditioning + temporal consistency pipeline.",
+    "prompt": "A person walking in a busy street with moving cars and background elements, daytime, dynamic motion, cinematic tracking shot, coherent human anatomy, consistent face and clothes across frames, natural walking gait, stable camera motion, realistic shadows, detailed urban environment",
+    "negative_prompt": "flicker, jitter, distorted body, deformed hands, extra limbs, duplicate person, warped face, unstable background, text, watermark, low quality, blurry",
+    "seed": 4096,
+    "parameters": {
+        "guidance_scale_t2i": 10.0,
+        "motion_bucket_id": 80,
+        "noise_aug_strength": 0.04,
+        "temporal_smoothing": true,
+        "interpolate": true,
+        "fps": 12
+    },
+    "generation_time_seconds": 439.41,
+    "video_path": "/kaggle/working/phase2_results/combined_A_B/output_video.mp4",
+    "frames_dir": "/kaggle/working/phase2_results/combined_A_B/frames",
+    "num_frames": 49,
+    "fps": 12,
+    "duration_seconds": 4.083333333333333,
+    "metrics": {
+        "clip_sim": 33.64607238769531,
+        "lpips_temporal": 0.04449367814231664,
+        "mean_ssim": 0.9466431082272496,
+        "mean_psnr": 28.485628459974706,
+        "mean_frame_diff": 3.9539464165767035,
+        "ssim_variance": 4.0156817652206263e-05
+    },
+    "weakness_analysis": {
+        "temporal_consistency": "good",
+        "flickering_detected": "no",
+        "semantic_alignment": "good",
+        "motion_realism": "manual_review_recommended"
+    },
+    "phase2_requirement": "ablation_variant"
+}

@@ -1,0 +1,18 @@
+{
+    "audio_path": "/kaggle/working/phase2_results/bonus_text_to_audio/phase2_neural_narration.wav",
+    "voice": "voice_1",
+    "style": "neutral",
+    "sample_rate": 16000,
+    "duration_seconds": 6.0886875,
+    "text": "A stabilized diffusion video shows smooth city walking. Temporal smoothing reduces flicker.",
+    "chunks": [
+        [
+            "A stabilized diffusion video shows smooth city walking.",
+            "period"
+        ],
+        [
+            "Temporal smoothing reduces flicker.",
+            "period"
+        ]
+    ]
+}

@@ -1,0 +1,15 @@
+torch
+diffusers
+transformers
+accelerate
+imageio[ffmpeg]
+opencv-python
+pillow
+scikit-image
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+lpips
+torchmetrics
